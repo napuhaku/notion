@@ -44,20 +44,31 @@ body {
 
 
 .slide:first-child {
-  background: url("1.png") no-repeat
+  background: url("Slide1") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url("2.png") no-repeat
+  background: url("Slide2") no-repeat
     center top/cover;
 }
 
 .slide:nth-child(3) {
-  background: url("3.png") no-repeat
+  background: url("Slide3") no-repeat
     center top/cover;
 }
+}
 
+.slide:nth-child(4) {
+  background: url("Slide4") no-repeat
+    center top/cover;
+}
+}
+
+.slide:nth-child(5) {
+  background: url("Slide5") no-repeat
+    center top/cover;
+}
 
 .buttons button#prev {
   position: absolute;
